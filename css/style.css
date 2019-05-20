@@ -10,15 +10,15 @@
 }
 
 #about{
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
 #resume{
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
 #contact{
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
 
@@ -163,24 +163,28 @@ nav ul,nav ol {
 	background-color: transparent;
 }
 .icon-list {
-	float:right;
-	padding:2.5em 2em 0 6em;
+	position:fixed;
+	float:left;
+	padding:2em 2em 0 2em;
 }
 .icon-list a, button {
-	display:inline-block;
+	display:block;
 	padding:0 0.2em;
 	margin:0 15px;
-	text-align:center;
-	font-size:1.2em;
+	text-align:left;
+	font-size:1.4em;
 	color: #353535;
 }
+.icon-list button:hover{
+	color: #ADD8E6;
+}
+
 .icon-list a span, button span {
-	display:block;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	font-size:0.5em;
 	font-weight:700;
-	padding-top: 0.5em;
+	padding: 2em 2em 2em 2em;
 }
 
 /* =====  HERO =====*/
@@ -247,17 +251,12 @@ h1.arrow span {
 	width:175px;
 	height:175px;
 	margin:0 auto;
-	text-align:center;
 	line-height:180px;
 	font-size:56px;
-	color:#8c9398;
 	border-radius:50%;
-	box-shadow:0 0 0 0 rgba(0,0,0,0.0);
 	margin-bottom:40px;
-	-webkit-transition:all .3s ease-out;
-	transition:all .3s ease-out;
+	color:#8c9398;
 	border: 1px solid #8c9398;
-	color: #8c9398;
 }
 
 .about .item:hover .icon {
@@ -275,9 +274,6 @@ h1.arrow span {
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
 	color:#fff;
-}
-.features-wrapper {
-	margin:70px 0 0;
 }
 
 .about-text {
